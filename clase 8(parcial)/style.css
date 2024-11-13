@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+}
+
+.navbar-brand {
+    width: 80px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+
+.container-fluid {
+    background-color: #f8c5c5;
+}
+
+.mi-portafolio {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 130px;
+    margin-left: 65px;
+}
+
+.div-color-centro {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: tomato;
+
+}
+
+#img-grande {
+    width: 800px;
+}
+
+.img-footer {
+    width: 30px;
+    margin: auto 0;
+
+}
+
+
+#sobre-mi {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 19px;
+    width: 1200px;
+
+}
+
+#text-card {
+    width: 800px;
+    text-align: center;
+    margin-left: 170px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#carousel-container {
+    max-width: 600px;
+    /* Ajusta el tamaño deseado aquí */
+    margin: auto;
+    /* Centra el carrusel */
+}
+
+.carousel-item img {
+    height: 300px;
+    /* Ajusta la altura deseada */
+    object-fit: cover;
+    /* Asegura que la imagen se adapte al tamaño del contenedor */
+}
